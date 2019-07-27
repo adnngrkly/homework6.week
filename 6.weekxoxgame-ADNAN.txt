@@ -53,6 +53,13 @@ while True:
                 if len(x) == len(i):
                     print("X KAZANDI!")
                     quit()
+                while True:
+                    r = [r for i in tahta for r in i]
+                    if "___" in r:
+                        break
+                    else:
+                        print("oyun berabere bitmistir")
+                        quit()
             continue
         else:
             print("\nORASI DOLU! TEKRAR DENEYIN\n")
@@ -88,6 +95,13 @@ while True:
                         if len(x) == len(i):
                             print("X KAZANDI!")
                             quit()
+                        while True:
+                            r = [r for i in tahta for r in i]
+                            if "___" in r:
+                                break
+                            else:
+                                print("oyun berabere bitmistir")
+                                quit()
                 continue
             else:
                 continue
@@ -134,10 +148,16 @@ while True:
                 if len(x) == len(i):
                     print("X KAZANDI!")
                     quit()
+                while True:
+                    r = [r for i in tahta for r in i]
+                    if "___" in r:
+                        break
+                    else:
+                        print("oyun berabere bitmistir")
+                        quit()
 
             break
         continue
-
 
 
 
