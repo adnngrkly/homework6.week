@@ -102,7 +102,7 @@ while True:
                             else:
                                 print("oyun berabere bitmistir")
                                 quit()
-                continue
+                break
             else:
                 continue
         if sira % 2 != 0:
